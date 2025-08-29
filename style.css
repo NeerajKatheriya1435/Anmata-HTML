@@ -1,0 +1,16 @@
+nav {
+    background-color: aqua;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+/* iframe {
+    background-color: rgb(209, 218, 218);
+} */
