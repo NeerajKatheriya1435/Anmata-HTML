@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes Selector</title>
+
+    <style>
+        /* a[href$=".com"] {
+            background-color: aqua;
+        } */
+        a:hover {
+            background-color: blue;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+        li:nth-child(2) {
+            color: rgb(174, 226, 43);
+        }
+
+        p {
+            color: hsl(203, 94%, 28%);
+            /* green shade */
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="https://www.google.com">Home</a></li>
+        <li><a href="https://www.facebook.com">Contact</a>
+            <div>Hello</div>
+        </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi, illo quae porro harum inventore
+            voluptate nemo quam a nesciunt!
+        </p>
+    </ul>
+</body>
+
+</html>
